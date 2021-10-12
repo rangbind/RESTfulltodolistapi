@@ -1,0 +1,28 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTfull todolist api",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \"\\No error specified\\\" && exit 1\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/rangbind/RESTfulltodolistapi.git\""
+  },
+  "keywords": [
+    "RESTfull",
+    "api",
+    "tutorials"
+  ],
+  "author": "rang",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  }
+}
